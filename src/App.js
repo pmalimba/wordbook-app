@@ -25,6 +25,7 @@ function App() {
   // phonetics of the searched word
   function playAudio() {
     let audio = new Audio(data.phonetics[0].audio);
+    console.log(data.phonetics[0]);
     audio.play();
   }
 
