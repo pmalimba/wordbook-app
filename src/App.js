@@ -4,7 +4,6 @@ import "./App.css";
 import { FaSearch } from "react-icons/fa";
 import { FcSpeaker } from "react-icons/fc";
 
-import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
