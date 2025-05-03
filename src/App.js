@@ -60,16 +60,13 @@ function App() {
             </button>
           </h2>
           <h4>Parts of speech:</h4>
-
           <p>{data.meanings[0].partOfSpeech}</p>
-
           <h4>Definition:</h4>
-
           <p>{data.meanings[0].definitions[0].definition}</p>
-
           <h4>Example:</h4>
-
           <p>{data.meanings[0].definitions[0].example}</p>
+          <h4>Synonyms:</h4>
+          <p>{data.meanings[0].definitions[0].synonyms}</p>
         </div>
       )}
     </div>
